@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const env = require("./config/env");
 
+// Alex is gay
 const bodyParser = require("body-parser");
 app.disable("x-powered-by");
 app.use(bodyParser.json());
